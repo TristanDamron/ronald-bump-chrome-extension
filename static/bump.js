@@ -7,4 +7,6 @@ var phrases = [
 	["said","kept tihs information to themselves"]
 ];
 
-document.body.innerHTML = document.body.innerHTML.replace();
+for (int i = 0; i < phrases[0].length; i++) {
+	document.body.innerHTML = document.body.innerHTML.replace(phrases[i][0], phrases[i][1]);	
+}
