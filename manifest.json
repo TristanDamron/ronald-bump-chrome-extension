@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "ronald_bump",
+  "description": "Replaces uncomfortable phrases with sill alternatives.",
+  "version": "1.0",
+  "permissions": [
+      "activeTab"
+  ],
+
+  "background": {
+      "scripts": ["bump.js"],
+      "persistent": false
+  },
+  "browser_action": {
+      default_title: "Bump this page!"
+  },
+}
