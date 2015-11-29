@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "ronald_bump",
-  "description": "Replaces uncomfortable phrases with sill alternatives.",
+  "description": "Replaces words and phrases with silly alternatives.",
   "version": "1.0",
   "permissions": [
       "activeTab"
