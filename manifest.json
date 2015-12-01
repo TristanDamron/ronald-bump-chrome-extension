@@ -14,12 +14,12 @@
 	     This will be changed eventually... it's here for testing purposes.
 	   */
 	  "matches": ["http://www.figytuna.com/"],
-	  "css": ["static/material.min..css"]
+	  "css": ["static/material.min.css"]
       }
   ],
 
   "background": {
-      "scripts": ["static/bump.js", "static/material.min.css"],
+      "scripts": ["static/bump.js"],
       "persistent": false
   },
 
