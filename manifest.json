@@ -8,8 +8,15 @@
       "activeTab"
   ],
 
+  "content_scripts": [
+      {
+	  "matches": ["http://www.figytuna.com/"],
+	  "css": ["static/bump.css"]
+      }
+  ],
+
   "background": {
-      "scripts": ["static/bump.js"],
+      "scripts": ["static/bump.js", "static/bump.css"],
       "persistent": false
   },
 
