@@ -10,13 +10,16 @@
 
   "content_scripts": [
       {
+	  /* 
+	     This will be changed eventually... it's here for testing purposes.
+	   */
 	  "matches": ["http://www.figytuna.com/"],
-	  "css": ["static/bump.css"]
+	  "css": ["static/material.min..css"]
       }
   ],
 
   "background": {
-      "scripts": ["static/bump.js", "static/bump.css"],
+      "scripts": ["static/bump.js", "static/material.min.css"],
       "persistent": false
   },
 
