@@ -14,7 +14,7 @@
 	     This will be changed eventually... it's here for testing purposes.
 	   */
 	  "matches": ["http://www.figytuna.com/"],
-	  "css": ["static/material.min.css"]
+	  "css": ["static/bump.css"]
       }
   ],
 
